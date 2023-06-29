@@ -26,7 +26,7 @@ def convert_dcm_to_png(dcm_file, output_dir, index):
 
     # Convert and save the pixel array as PNG image
     image = Image.fromarray(pixel_array)
-    image_path = os.path.join(output_dir, f"p_scan{index}.png")
+    image_path = os.path.join(output_dir, f"4_p_scan{index}.png")
     image.save(image_path)
 
     return image_path
@@ -69,7 +69,7 @@ def convert_folder_dcm_to_png(input_folder, output_folder):
     return converted_images
 
 # Paths (i have no idea why its only working when i put the images folder cause we are already in it)
-input_folder = "images/PPMI/100012/3D_T1-weighted/2022-02-07_14_12_48.0/I1561306"  # Update with the path to your input folder containing DICOM files
+input_folder = "images/PPMI/100018/3D_T2_FLAIR_ti1650_ND_MPR_Tra/2023-03-16_08_26_01.0/I1701007" # Update with the path to your input folder containing DICOM files
 
 output_folder = "images/data/parkinson"  # Update with the desired output folder
 
