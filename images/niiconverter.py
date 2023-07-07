@@ -47,7 +47,7 @@ def brain_scan(nii_data):
 
 
 # Specify the path to the NIfTI file
-nii_path = 'practice_images/71_MNI 1mm.nii.gz'
+nii_path = 'ida_control_autism/ABIDE/50050/MP-RAGE/2000-01-01_00_00_00.0/I328317/control.nii'
 # Parkinson images
 # nitrc/guest-20230622_221143/p06871/dwi_1000/NIfTI/p06871_bmatrix_1000.nii
 # nitrc\guest-20230622_221143\p06871\dwi_1000\NIfTI
