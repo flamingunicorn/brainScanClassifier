@@ -27,7 +27,7 @@
 ## Classifer
 - Much of the code was from Nicholas Renotte's Deep Learning tutorials
     - [tutorial 1](https://www.youtube.com/watch?v=19LQRx78QVU&list=PLgNJO2hghbmiXg5d4X8DURJP9yv9pgjIu&index=1)
-    - [tutorial 2](https://www.youtube.com/watch?v=jztwpsIzEGc&list=PLgNJO2hghbmiXg5d4X8DURJP9yv9pgjIu&index=2)
+    - [more in depth version of tutorial 1](https://www.youtube.com/watch?v=jztwpsIzEGc&list=PLgNJO2hghbmiXg5d4X8DURJP9yv9pgjIu&index=2)
 
 
 ## Pulling Parkinson Data
