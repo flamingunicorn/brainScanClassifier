@@ -44,12 +44,12 @@ def convert_folder_dcm_to_png(input_folder, output_folder):
     return converted_images
 
 # Paths
-input_folder = "images/control/PPMI/3000/AX_T2_FLAIR/2011-02-01_08_05_22.0/I224561"  # Update with the path to your input folder containing DICOM files
+input_folder = "images/control/PPMI/3004/AX_T2_FLAIR_5_1/2011-04-05_14_45_45.0/I243168"  # Update with the path to your input folder containing DICOM files
 
 output_folder = "images/data/control"  # Update with the desired output folder
 
 converted_images = convert_folder_dcm_to_png(input_folder, output_folder)
 if converted_images:
-    print(f"Converted {len(converted_images)} DICOM images to PNG.")
+    print(f"Converted {len(converted_images)} DICOM images to PNG.") 
 else:
     print("No DICOM images converted to PNG.")

@@ -29,7 +29,7 @@ def convert_dcm_to_png(dcm_file, output_dir, index):
     rotated_image = image.rotate(-90, expand=True)
 
     # Save the rotated image
-    image_path = os.path.join(output_dir, f"ppmicontrol_1_scan{index}.png")
+    image_path = os.path.join(output_dir, f"ppmicontrol_10_scan{index}.png")
     rotated_image.save(image_path)
 
     return image_path
@@ -50,7 +50,7 @@ def convert_folder_dcm_to_png(input_folder, output_folder):
     return converted_images
 
 # Paths
-input_folder = "images/control/PPMI/3000/AX_T2_FLAIR/2011-02-01_08_05_22.0/I224561"  # Update with the path to your input folder containing DICOM files
+input_folder = "images/control/PPMI/149808/2D_T2__FLAIR/2022-07-15_12_25_00.0/I1617102"  # Update with the path to your input folder containing DICOM files
 
 output_folder = "images/data/control"  # Update with the desired output folder
 
