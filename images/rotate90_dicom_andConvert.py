@@ -24,8 +24,13 @@ def convert_dcm_to_png(dcm_file, output_dir, index):
 
     # Convert and save the pixel array as PNG image
     image = Image.fromarray(pixel_array)
-    image_path = os.path.join(output_dir, f"a8_scan{index}.png")
-    image.save(image_path)
+
+    # Rotate the image
+    rotated_image = image.rotate(-90, expand=True)
+
+    # Save the rotated image
+    image_path = os.path.join(output_dir, f"ppmicontrol_1_scan{index}.png")
+    rotated_image.save(image_path)
 
     return image_path
 
@@ -45,9 +50,9 @@ def convert_folder_dcm_to_png(input_folder, output_folder):
     return converted_images
 
 # Paths
-input_folder = "images/ADNI/002_S_0295/Axial_T2-Star/2012-05-10_16_15_17.0/I303070"  # Update with the path to your input folder containing DICOM files
+input_folder = "images/control/PPMI/3000/AX_T2_FLAIR/2011-02-01_08_05_22.0/I224561"  # Update with the path to your input folder containing DICOM files
 
-output_folder = "images/data/alzheimer"  # Update with the desired output folder
+output_folder = "images/data/control"  # Update with the desired output folder
 
 converted_images = convert_folder_dcm_to_png(input_folder, output_folder)
 if converted_images:
