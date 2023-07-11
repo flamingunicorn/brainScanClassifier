@@ -21,7 +21,7 @@ def rotate_images(folder_path):
 
 # Specify the folder path where PNG files are located
 # Still doing the odd thing where it wants me to specify the folder this file is already in
-folder_path = 'images/test_scans/parkinson'
+folder_path = 'images/data/z_alzheimer'
 
 # Call the rotate_images function
 rotate_images(folder_path)
