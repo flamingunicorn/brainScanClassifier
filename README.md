@@ -1,5 +1,5 @@
 # Project Desription - brainScanClassifier
-## This image classifier is built with TensorFlow and aims to identify neurological conditions using brain scan images sourced from studies available on the [IDAs](https://ida.loni.usc.edu/login.jsp) website. Currently, the classifier focuses on detecting Parkinson's disease, autism, or neither condition. The ultimate goal is to expand its capabilities by incorporating more neurological diseases and conditions into the classifier's repertoire.
+### This image classifier is built with TensorFlow and aims to identify neurological conditions using brain scan images sourced from studies available on the [IDAs](https://ida.loni.usc.edu/login.jsp) website. Currently, the classifier focuses on detecting Parkinson's disease, autism, or neither condition. The ultimate goal is to expand its capabilities by incorporating more neurological diseases and conditions into the classifier's repertoire. As well as, allowing the user to drop an entire MRI scan, identify problematic brain images, and determine the most likely condition of the patient or if they are fine.
 
 # Table of Contents
 - [Installation](#Installation)
